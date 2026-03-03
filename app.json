@@ -4,7 +4,7 @@
     "slug": "moodtrack",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./Logo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -17,13 +17,17 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+        "foregroundImage": "./Logo.png"
+      },
+      "package": "ycom.unchained.moodtrack"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./Logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "27d60c64-4a11-41e6-81fe-bcea26c7ed5c"
+      }
     }
   }
 }
